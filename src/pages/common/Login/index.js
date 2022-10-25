@@ -8,6 +8,7 @@ import { HideLoading, ShowLoading } from "../../../redux/loaderSlice";
 function Login() {
   const dispatch = useDispatch();
   const onFinish = async (values) => {
+    console.log(values)
     try {
       dispatch(ShowLoading());
       const response = await loginUser(values);
