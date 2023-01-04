@@ -26,6 +26,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* Common Routes */}
+         
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
 
